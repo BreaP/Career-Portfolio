@@ -1,0 +1,65 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+
+
+
+.logo img {
+    max-height: 50px;
+}
+
+.tabs {
+    margin: 10px;
+    width: 600px;
+    font-family: Verdana;
+}
+.tabs li {
+    display: block;
+    width: 120px;
+    float: left;
+    margin-left: 2px;
+    border: 1px solid #d8d1d16e;
+}
+.tabs a {
+    display: block;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.tabs a:hover {
+    background-color: #0000000a;
+}
+
+.search-bar input {
+    padding: 5px;
+}
+
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+.subscribe button{
+    padding: 5px 10px;
+    display:inline-flexbox
+}
+
+.book-details {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 10px;
+}
+.book img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.8);
+
+
+}
+
